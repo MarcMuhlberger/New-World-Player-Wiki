@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.nav {
+    font-family: 'IM Fell DW Pica SC', serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:3vw;
+    z-index: 1;
+    height: 30vw;
+}
+.nav a:hover {
+    text-shadow: .1vw .1vw 1vw rgb(255, 255, 255);
+}
+a:link {
+    text-decoration: none;
+    
+}
+a:hover {
+    color: white;
+    text-shadow: .1vw .1vw .7vw rgb(0, 0, 0);
+}
+a {
+    color: rgb(230, 230, 230);
+}
+.dps {
+    background-image:url(images/ice.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+    height: 30vw;
+}
+.healer {
+    background-image:url(images/LifeStaff.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+    height: 30vw;
+}
+.tank {
+    background-image:url(images/tank.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+    height: 30vw;  
+}
+#navimg {
+    background-image:url(images/nav.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#review-img {
+    background-image:url(images/review-img.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vw;
+}
+#class-img {
+    background-image:url(images/class.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vw;
+}
+#btmfac {
+    background-image:url(images/btmfac.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vw;
+}
+#class-img2 {
+    background-image:url(images/class2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10vw;
+    margin-bottom: -20vw;
+    height: 28vw;
+    width: 100%;
+}
+#faction-img {
+    background-image:url(images/faction4231.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10vw;
+    margin-bottom: -20vw;
+    height: 25vw;
+    width: 100%;
+
+}
+#level-img {
+    background-image:url(images/leveling.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10vw;
+    margin-bottom: -20vw;
+    height: 29vw;
+    width: 100%;
+}
+#excav {
+    background-image:url(images/dungeon.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1vw;
+    margin-bottom: -2vw;
+    height: 29vw;
+    width: 100%;
+}
+#board {
+    background-image:url(images/board.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vw;
+    width: 100%;
+}
+.cov-img{
+    background-image:url(images/covn.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height: 30vw; 
+}
+.maru-img{
+    background-image:url(images/maru.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height: 30vw; 
+}
+
+.syn-img{
+    background-image:url(images/syn.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height: 30vw; 
+}
+.map-img{
+    background-image:url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/10/new-world-endgame-pvp-exclusive.jpg?q=50&fit=crop&w=1800&dpr=1.5);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 25vw; 
+    margin: 3vw;
+}
+.amerine-img{
+    background-image:url(https://cdn.newworldfans.com/ogytqgeg4n5tpjkm78hvnw0aacnu);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 25vw; 
+    margin: 3vw;
+}
+.starstone-img{
+    background-image:url(https://nwhub.gg/wp-content/uploads/2021/09/starstone-barrows-location-pic.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 25vw; 
+    margin: 3vw;
+}
+.depths-img{
+    background-image:url(https://nwhub.gg/wp-content/uploads/2021/09/the-depths-location.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 25vw; 
+    margin: 3vw;
+}
+.index-3star {
+    background-image:url(images/3star.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 4vw; 
+}
+.index-3star2 {
+    background-image:url(images/3star.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 5vw; 
+}
+.google-rev {
+    background-image:url(images/google_rev.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 4vw; 
+}
+.good {
+    background-image:url(images/good.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 10vw; 
+}
+.top-rated {
+    background-image:url(images/rated.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 15vw; 
+}
+.bad {
+    background-image:url(images/bad.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 10vw;
+    margin-left: 1vw;
+}
+.graph{
+    background-image:url(images/graph.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 15vw
+}
+#textbox {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    margin: 1.5vw;
+    padding: 1vw;
+}
+#whitetext {
+    background-color: rgba(255, 255, 255, 0.336);
+    margin: 1.5vw;
+    padding: 1vw;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+.glow {
+    text-shadow: .1vw .1vw .7vw rgb(255, 255, 255);
+}
+.border-glow {
+    border-radius: 750px ; 
+    box-shadow: 0vw 0vw 20px 15px white;
+}
+.burnbox  {
+    background-color: rgba(26,26,26,255);
+}
+.burn {
+    text-shadow: .1vw .1vw .7vw rgb(0, 0, 0);
+}
+.drop {
+    margin-top: 20vw;
+}
+.white {
+    color: white;
+    font-weight: lighter;
+}
+.fire {
+    color: rgb(175, 9, 9);
+    text-shadow: .1vw .1vw .7vw rgb(173, 110, 110);
+}
+.link2 {
+    color: rgb(36, 41, 66);
+    text-shadow: .1vw .1vw .7vw rgb(0, 0, 0);
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5vw;
+    gap: 3vw;
+}
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:2vw
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 4vw;
+    color: rgb(36, 41, 66);
+}
+h2 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 2vw;
+    color: rgb(36, 41, 66);
+}
+h3 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 4vw;
+    color: white;
+    font-weight: lighter;
+    margin: .5vw;
+}
+h4 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 3vw;
+    color: white;
+    font-weight: lighter;
+    margin: .5vw;
+}
+h5 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: lighter;
+    margin: .5vw;
+}
+.p1 {
+    font-family: 'Inter', sans-serif;
+    color: rgb(36, 41, 66);
+    font-size: 1.5vw;
+    margin: .1vw 10vw .1vw;
+}
+.p2 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 1.5vw;
+}
+.p3 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 1vw;
+}
+.p2 a:hover{
+    text-shadow: .1vw .1vw .7vw rgb(255, 255, 255);
+}
+.intro {
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5vw;
+}
+.reviews {
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1vw;
+}
+.video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding-top: 56.25%;
+}
+.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    z-index: 0;
+    background-color: rgb(27, 27, 27);
+    background-image: url(https://images.ctfassets.net/j95d1p8hsuun/3qfLbB4vKzxm0KiwS2cQCm/4c54aedf844e6991ca3b0e73a627d658/header-letter.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+}
+            /** BTM NAV **/
+.btm-nav {
+    background-image: url(images/btm-nav.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav2 {
+    height: 100%;
+    padding-top: 10vw;
+    padding-bottom: 3vw;
+    font-family: 'IM Fell DW Pica SC', serif;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:3vw;
+    width:100%;
+    z-index: 1;
+}
+.nav2 a{
+    color:rgb(36, 41, 66);
+    font-weight: bold;
+}
+.nav2 a:hover {
+    color: rgb(238, 227, 206);
+    font-weight: lighter;
+}
+.back-to {
+    padding:3vw; 
+    align-items: center;
+    background-image: url(images/top.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.fade-in {
+    opacity: 0%;
+  }
+.fade-in:hover {
+    opacity:100%;
+    transition:opacity 15s;
+    filter: drop-shadow(.1vw .1vw 1vw #b921ff);
+  }
+#nav-item:hover + .image { background-color: yellow; }
